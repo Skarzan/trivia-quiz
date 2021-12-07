@@ -3,7 +3,7 @@ import AnswerCard from "./AnswerCard";
 
 export default {
   component: AnswerCard,
-      title: "AnswerCard",
+  title: "AnswerCard",
 }
 
 const Template = args => <AnswerCard {...args} />;
@@ -26,5 +26,6 @@ revealedRightAnswer.args = {
 export const revealedWrongAnswer = Template.bind();
 revealedWrongAnswer.args = {
   ...revealedRightAnswer.args,
+  text: "Zugspitze",
   rightAnswer: false,
 };

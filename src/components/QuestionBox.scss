@@ -1,0 +1,29 @@
+.QuestionBox {
+  background: #484848;
+  padding: 3rem 4rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  position: relative;
+  min-height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .questionBoxText {
+    font-size: 3rem;
+    font-family: "Arial Narrow";
+    color: white;
+    text-align: center;
+  }
+
+  .cashWorth {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    font-size: 2rem;
+    color: #66bf3c;
+    background: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+  }
+}
