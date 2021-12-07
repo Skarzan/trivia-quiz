@@ -3,11 +3,11 @@
     border-radius: 1rem;
     padding: 1.2rem 2rem ;
     font-size: 1.7rem;
-    background-color: cadetblue;
+    background-color: #3d7fa0;
     cursor: pointer;
 
     &.rightAnswer {
-        background-color: lightgreen;
+        background-color: #6dee68;
     }
 
     &.wrongAnswer {
