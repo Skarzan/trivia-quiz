@@ -1,0 +1,11 @@
+.Question {
+  max-width: 60rem;
+
+  .answersSection {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+}

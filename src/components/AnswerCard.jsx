@@ -16,7 +16,7 @@ export default function AnswerCard({id, text, rightAnswer, revealed, clickAnswer
   }
 
   return (
-      <div className={`AnswerCard ${answerState()}`} data-id={id}>
+      <div onClick={() => clickAnswer()} className={`AnswerCard ${answerState()}`} data-id={id}>
         <div className={"answerText"}>
           {text}
         </div>

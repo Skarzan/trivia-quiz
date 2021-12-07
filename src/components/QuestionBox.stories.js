@@ -13,11 +13,11 @@ export const Default = Template.bind();
 Default.args = {
   id: 1,
   question: "What is the highest mountain on earth?",
-  worth: 100
+  worth: "100 $"
 };
 
 export const BigWorth = Template.bind();
 BigWorth.args = {
   ...Default.args,
-  worth: 10000
+  worth: "10000 $"
 };
