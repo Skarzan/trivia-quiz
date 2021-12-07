@@ -1,0 +1,21 @@
+.AnswerCard {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1.2rem 2rem ;
+    font-size: 1.7rem;
+    background-color: cadetblue;
+    cursor: pointer;
+
+    &.rightAnswer {
+        background-color: lightgreen;
+    }
+
+    &.wrongAnswer {
+        background-color: #cd4c49;
+    }
+
+    .answerText {
+        color: white;
+        font-family: "Arial Narrow";
+    }
+}
