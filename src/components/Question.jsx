@@ -1,12 +1,17 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import QuestionBox from "./QuestionBox";
 import AnswerCard from "./AnswerCard";
 import "./Question.scss";
 
-export default function Question({id, questionData, worth}) {
+export default function Question({id, questionData, worth, prepareNextQuestion}) {
 
   const [userAnsweredQuestion, setUserAnsweredQuestion] = useState(false);
   const [guessedRight, setGuessedRight] = useState(false);
+
+  useEffect(() => {
+    setUserAnsweredQuestion(false);
+    setGuessedRight(false);
+  },[id]);
 
   const shuffleAndReturnAnswers = () => {
     let answerArray = [
@@ -30,7 +35,16 @@ export default function Question({id, questionData, worth}) {
 
     return answerArray.map((answer, i) => {
       return (
-          <AnswerCard id={i} revealed={userAnsweredQuestion} text={answer.text} rightAnswer={answer.correct} clickAnswer={() => clickAnswer(answer.correct)}/>
+          <AnswerCard
+              id={i}
+              revealed={userAnsweredQuestion}
+              text={answer.text}
+              rightAnswer={answer.correct}
+              clickAnswer={() =>  {
+                clickAnswer(answer.correct);
+                prepareNextQuestion();
+              }}
+          />
       );
     });
   };
