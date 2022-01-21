@@ -13,7 +13,7 @@ export default function AnswerCard({id, text, rightAnswer, revealed, clickAnswer
       }
     }
     return "";
-  }
+  };
 
   return (
       <div onClick={() => clickAnswer()} className={`AnswerCard ${answerState()}`} data-id={id}>

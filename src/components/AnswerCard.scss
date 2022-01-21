@@ -12,6 +12,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 5rem;
+
+    &:hover {
+        background-color: #3d7fc2;
+    }
 
     &.rightAnswer {
         background-color: #6dee68;

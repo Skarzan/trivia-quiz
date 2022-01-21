@@ -24,7 +24,8 @@ Default.args = {
       "The Terminators"
     ]
   },
-  worth: 100
+  worth: 100,
+  prepareNextQuestion: () => {}
 };
 
 export const MoreWorthQuestion = Template.bind();
