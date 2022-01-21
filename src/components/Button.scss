@@ -11,6 +11,10 @@
   max-width: 12rem;
   min-height: 4rem;
 
+  &:hover {
+    background-color: #4CCF50; /* Green */
+  }
+
   &.disabled {
     background-color: #c2cac2; /* Green */
     cursor: not-allowed;
