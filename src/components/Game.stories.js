@@ -4,7 +4,7 @@ import AnswerCard from "./AnswerCard";
 
 export default {
   component: Game,
-  title: "Game",
+  title: "Game"
 }
 
 const Template = args => <Game {...args} />;

@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots AnswerCard Default 1`] = `
+<div
+  className="AnswerCard "
+  data-id={1}
+  onClick={[Function]}
+>
+  <div
+    className="answerText"
+  >
+    Mount Everest
+  </div>
+</div>
+`;
+
+exports[`Storyshots AnswerCard Revealed Right Answer 1`] = `
+<div
+  className="AnswerCard rightAnswer"
+  data-id={1}
+  onClick={[Function]}
+>
+  <div
+    className="answerText"
+  >
+    Mount Everest
+  </div>
+</div>
+`;
+
+exports[`Storyshots AnswerCard Revealed Wrong Answer 1`] = `
+<div
+  className="AnswerCard wrongAnswer"
+  data-id={1}
+  onClick={[Function]}
+>
+  <div
+    className="answerText"
+  >
+    Zugspitze
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Default 1`] = `
+<button
+  className="Button "
+  disabled={false}
+  onClick={[Function]}
+>
+  Next Question
+</button>
+`;
+
+exports[`Storyshots Button Disabled 1`] = `
+<button
+  className="Button disabled"
+  disabled={true}
+  onClick={[Function]}
+>
+  Next Question
+</button>
+`;
+
+exports[`Storyshots Button New Game 1`] = `
+<button
+  className="Button "
+  disabled={false}
+  onClick={[Function]}
+>
+  New Game
+</button>
+`;
+
+exports[`Storyshots Game Default 1`] = `
+<div
+  className="Game"
+>
+  <div
+    className="Question"
+  >
+    <div
+      className="QuestionBox"
+    >
+      <div
+        className="questionBoxText"
+      >
+        In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing	spree?
+      </div>
+      <div
+        className="cashWorth"
+      >
+        100 $
+      </div>
+    </div>
+    <div
+      className="answersSection"
+    >
+      <div
+        className="AnswerCard "
+        data-id={0}
+        onClick={[Function]}
+      >
+        <div
+          className="answerText"
+        >
+          Android
+        </div>
+      </div>
+      <div
+        className="AnswerCard "
+        data-id={1}
+        onClick={[Function]}
+      >
+        <div
+          className="answerText"
+        >
+          Runaway
+        </div>
+      </div>
+      <div
+        className="AnswerCard "
+        data-id={2}
+        onClick={[Function]}
+      >
+        <div
+          className="answerText"
+        >
+          The Terminators
+        </div>
+      </div>
+      <div
+        className="AnswerCard "
+        data-id={3}
+        onClick={[Function]}
+      >
+        <div
+          className="answerText"
+        >
+          Westworld
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="Button disabled"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Continue
+  </button>
+</div>
+`;
+
+exports[`Storyshots Question Default 1`] = `
+<div
+  className="Question"
+>
+  <div
+    className="QuestionBox"
+  >
+    <div
+      className="questionBoxText"
+    >
+      In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing	spree?
+    </div>
+    <div
+      className="cashWorth"
+    >
+      100 $
+    </div>
+  </div>
+  <div
+    className="answersSection"
+  >
+    <div
+      className="AnswerCard "
+      data-id={0}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Android
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={1}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Runaway
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={2}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        The Terminators
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={3}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Westworld
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Question More Worth Question 1`] = `
+<div
+  className="Question"
+>
+  <div
+    className="QuestionBox"
+  >
+    <div
+      className="questionBoxText"
+    >
+      In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing	spree?
+    </div>
+    <div
+      className="cashWorth"
+    >
+      10000 $
+    </div>
+  </div>
+  <div
+    className="answersSection"
+  >
+    <div
+      className="AnswerCard "
+      data-id={0}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Android
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={1}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Runaway
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={2}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        The Terminators
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={3}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Westworld
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Question User Click Right Answer 1`] = `
+<div
+  className="Question"
+>
+  <div
+    className="QuestionBox"
+  >
+    <div
+      className="questionBoxText"
+    >
+      In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing	spree?
+    </div>
+    <div
+      className="cashWorth"
+    >
+      100 $
+    </div>
+  </div>
+  <div
+    className="answersSection"
+  >
+    <div
+      className="AnswerCard "
+      data-id={0}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Android
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={1}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Runaway
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={2}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        The Terminators
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={3}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Westworld
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Question User Click Wrong Answer 1`] = `
+<div
+  className="Question"
+>
+  <div
+    className="QuestionBox"
+  >
+    <div
+      className="questionBoxText"
+    >
+      In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing	spree?
+    </div>
+    <div
+      className="cashWorth"
+    >
+      100 $
+    </div>
+  </div>
+  <div
+    className="answersSection"
+  >
+    <div
+      className="AnswerCard "
+      data-id={0}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Android
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={1}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Runaway
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={2}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        The Terminators
+      </div>
+    </div>
+    <div
+      className="AnswerCard "
+      data-id={3}
+      onClick={[Function]}
+    >
+      <div
+        className="answerText"
+      >
+        Westworld
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots QuestionBox Big Worth 1`] = `
+<div
+  className="QuestionBox"
+>
+  <div
+    className="questionBoxText"
+  >
+    What is the highest mountain on earth?
+  </div>
+  <div
+    className="cashWorth"
+  >
+    10000 $
+  </div>
+</div>
+`;
+
+exports[`Storyshots QuestionBox Default 1`] = `
+<div
+  className="QuestionBox"
+>
+  <div
+    className="questionBoxText"
+  >
+    What is the highest mountain on earth?
+  </div>
+  <div
+    className="cashWorth"
+  >
+    100 $
+  </div>
+</div>
+`;
