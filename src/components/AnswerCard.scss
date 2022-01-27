@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 2rem;
 
     &:hover {
         background-color: #3d7fc2;
