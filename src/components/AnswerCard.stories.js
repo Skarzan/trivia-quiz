@@ -4,6 +4,10 @@ import AnswerCard from "./AnswerCard";
 export default {
   component: AnswerCard,
   title: "AnswerCard",
+  argTypes: {
+    clickAnswer: {action:'answer clicked'}
+  }
+
 }
 
 const Template = args => <AnswerCard {...args} />;
@@ -13,7 +17,7 @@ Default.args = {
   id: 1,
   text: "Mount Everest",
   rightAnswer: false,
-  revealed: false,
+  revealed: false
 };
 
 export const revealedRightAnswer = Template.bind();
