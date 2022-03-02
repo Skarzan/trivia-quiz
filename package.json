@@ -8,6 +8,8 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "backstopjs": "^6.0.4",
+    "loki": "^0.28.1",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -61,5 +63,21 @@
     "@storybook/react": "^6.4.8",
     "@storybook/testing-react": "^1.2.3",
     "chromatic": "^6.1.0"
+  },
+  "loki": {
+    "diffingEngine": "looks-same",
+    "configurations": {
+      "chrome.laptop": {
+        "target": "chrome.app",
+        "width": 1920,
+        "height": 1080,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "chrome.iphone7": {
+        "target": "chrome.app",
+        "preset": "iPhone 7"
+      }
+    }
   }
 }
